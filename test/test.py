@@ -6,7 +6,7 @@ class TestApp(unittest.TestCase):
         tester = app.test_client()
         response = tester.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data, b"Python App Hosting Done What next")
+        self.assertEqual(response.data, b"Python App zala deploy")
 
 
 if __name__ == "__main__":
